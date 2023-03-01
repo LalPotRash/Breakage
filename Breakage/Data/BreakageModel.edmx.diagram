@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ec3310aad15546bbbff9b7c6e9439a7c" Name="Diagram1" >
+        <EntityTypeShape EntityType="BreakageMishaModel.Client" Width="1.5" PointX="0.75" PointY="7" />
+        <EntityTypeShape EntityType="BreakageMishaModel.ClientService" Width="1.5" PointX="3" PointY="9.25" />
+        <EntityTypeShape EntityType="BreakageMishaModel.DocumentByService" Width="1.5" PointX="5.25" PointY="9.75" />
+        <EntityTypeShape EntityType="BreakageMishaModel.Gender" Width="1.5" PointX="1.5" PointY="13.125" />
+        <EntityTypeShape EntityType="BreakageMishaModel.Manufacturer" Width="1.5" PointX="0.75" PointY="2.625" />
+        <EntityTypeShape EntityType="BreakageMishaModel.Product" Width="1.5" PointX="3" PointY="1.875" />
+        <EntityTypeShape EntityType="BreakageMishaModel.ProductPhoto" Width="1.5" PointX="5.25" PointY="5.75" />
+        <EntityTypeShape EntityType="BreakageMishaModel.ProductSale" Width="1.5" PointX="5.25" PointY="2.375" />
+        <EntityTypeShape EntityType="BreakageMishaModel.Service" Width="1.5" PointX="0.75" PointY="15.5" />
+        <EntityTypeShape EntityType="BreakageMishaModel.ServicePhoto" Width="1.5" PointX="3" PointY="16" />
+        <EntityTypeShape EntityType="BreakageMishaModel.sysdiagram" Width="1.5" PointX="7.75" PointY="0.75" />
+        <EntityTypeShape EntityType="BreakageMishaModel.Tag" Width="1.5" PointX="3" PointY="6" />
+        <AssociationConnector Association="BreakageMishaModel.FK_Client_Gender" />
+        <AssociationConnector Association="BreakageMishaModel.FK_ClientService_Client" />
+        <AssociationConnector Association="BreakageMishaModel.FK_ClientService_Service" />
+        <AssociationConnector Association="BreakageMishaModel.FK_DocumentByService_ClientService" />
+        <AssociationConnector Association="BreakageMishaModel.FK_ProductSale_ClientService" />
+        <AssociationConnector Association="BreakageMishaModel.FK_Product_Manufacturer" />
+        <AssociationConnector Association="BreakageMishaModel.FK_ProductPhoto_Product" />
+        <AssociationConnector Association="BreakageMishaModel.FK_ProductSale_Product" />
+        <AssociationConnector Association="BreakageMishaModel.FK_ServicePhoto_Service" />
+        <AssociationConnector Association="BreakageMishaModel.AttachedProduct" />
+        <AssociationConnector Association="BreakageMishaModel.TagOfClient" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

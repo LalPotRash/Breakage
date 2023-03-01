@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2752730f2db94254a3f366485bf52166" Name="Diagram1">
+        <EntityTypeShape EntityType="BreakageModel.Client" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BreakageModel.ClientService" Width="1.5" PointX="3" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BreakageModel.DocumentByService" Width="1.5" PointX="5.25" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BreakageModel.Gender" Width="1.5" PointX="1.5" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BreakageModel.Manufacturer" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="BreakageModel.Product" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BreakageModel.ProductPhoto" Width="1.5" PointX="5.25" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="BreakageModel.ProductSale" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BreakageModel.Service" Width="1.5" PointX="0.75" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BreakageModel.ServicePhoto" Width="1.5" PointX="3" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BreakageModel.sysdiagram" Width="1.5" PointX="5.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BreakageModel.Tag" Width="1.5" PointX="3" PointY="16.375" IsExpanded="true" />
+        <AssociationConnector Association="BreakageModel.FK_Client_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="BreakageModel.FK_ClientService_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="BreakageModel.FK_ClientService_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="BreakageModel.FK_DocumentByService_ClientService" ManuallyRouted="false" />
+        <AssociationConnector Association="BreakageModel.FK_ProductSale_ClientService" ManuallyRouted="false" />
+        <AssociationConnector Association="BreakageModel.FK_Product_Manufacturer" ManuallyRouted="false" />
+        <AssociationConnector Association="BreakageModel.FK_ProductPhoto_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="BreakageModel.FK_ProductSale_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="BreakageModel.FK_ServicePhoto_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="BreakageModel.AttachedProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="BreakageModel.TagOfClient" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
